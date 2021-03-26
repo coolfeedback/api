@@ -45,7 +45,8 @@
     "Id": "065D3C46-F3BD-4292-8D5F-002A0DA030C8",
     "externalId": "externalID1104",
     "name": "testName",
-    "isActive": true 
+    "isActive": true,
+    "level": 20 
 }
 ```
 
@@ -108,7 +109,8 @@
     "Id": "065D3C46-F3BD-4292-8D5F-002A0DA030C8",
     "externalId": "externalID1104",
     "name": "testName",
-    "isActive": true 
+    "isActive": true,
+    "level": 20 
 }
 ```
 
@@ -119,6 +121,7 @@
 |externalId|string| Unique |Внешний идентификатор (опциональный)|
 |name|string| - |Наименование позиции|
 |isActive|bool| - |Активен|
+|level|number| - |Уровень позиции|
 
 
 
