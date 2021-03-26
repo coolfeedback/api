@@ -10,7 +10,8 @@
 {
     "externalId": "externalID1104",
     "name": "testName",
-    "isActive": true 
+    "isActive": true,
+    "level": 20
 }
 ```
 
@@ -20,6 +21,7 @@
 |externalId|string| Unique |Внешний идентификатор (опциональный)|
 |name|string| - |Наименование позиции|
 |isActive|bool| - |Активен|
+|level|number| - |Уровень позиции|
 
 ### Логика работы
 
