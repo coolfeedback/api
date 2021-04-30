@@ -8,23 +8,26 @@
 
 ```json
 {
-    "externalId": "externalID1104",
+    "id": "8afd0fe8-fb78-408f-a218-91c8effa002f",
+    "externalId": "externalID1104123",
     "templateId": "fced54c5-9d7f-4179-ac33-b1c5ce4a5e59",
     "typeId": "82c36fae-136b-4702-9785-fa173f05c714",
     "assessmentTypeId": "81c36fae-136b-4702-9785-fa173f05c714",
+    "appraiseeId": "a7561084-127f-4bf5-867d-0787572f9949",
     "appraiseeExternalId": "SU44617",
     "periodStart": "2018-07-01T00:00:00+03:00",
     "periodEnd": "2018-12-31T00:00:00+03:00",
+    "initiatorId": "4e9d939e-6904-4b33-acfc-a17375176d0c",
     "initiatorExternalId": "SU2037",
-    "status": 3,
     "participantLastDate": "2019-01-15T00:00:00+03:00",
+    "status": 3,
     "requestLastDate": "2018-12-25T00:00:00+03:00",
     "feedbackLastDate": "2019-02-17T00:00:00+03:00",
     "feedbackStatus": 0,
     "mainСriterionX": 1,
     "mainСriterionY": 2,
-    "resultRecommendations": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
     "additionalInfo": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
+    "resultRecommendations": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
     "adInfoRequestInProgress": false
 }
 ```
