@@ -1,7 +1,7 @@
-# AppraisalParticipantCreateOrMergeParticipationReason (Создание или объединение причины участия)
+# AppraisalParticipantCreateParticipantOrMergeParticipationReason (Создание или объединение причины участия)
 ## Создание/Объединене причины участия
 
-`POST /api/appraisals/{appraisalId}/participants/CreateOrMergeParticipationReason`
+`POST /api/appraisals/{appraisalId}/participants/CreateParticipantOrMergeParticipationReason`
 
 где ```appraisalId``` - идентификатор анкетирования
 
@@ -50,10 +50,11 @@
 ### Логика работы
 
 Если не были переданы обязательные пераметры, то будет возвращен код ```400 BadRequest ```.
-В случае создания записи, будет возвращен статус ```201 Created```. В случае нахождения такого участника по заданному анкетированию, будет обновлено поле participationReason и возвращен статус ```200 Created```. В теле ответа JSON с идентификатором созданной сущности:
+В случае создания записи, будет возвращен статус ```201 Created```. В теле ответа JSON с идентификатором созданной сущности:
 
 ```json
 {
     "id": "c8a35627-db25-45e8-a09d-ee7d1c6e8e8c"
 }
 ```
+В случае нахождения такого участника по заданному анкетированию, будет обновлено поле participationReason и возвращен статус ```204 NoContent```. 
