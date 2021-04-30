@@ -11,6 +11,7 @@
     "externalId": "externalID1104",
     "templateId": "fced54c5-9d7f-4179-ac33-b1c5ce4a5e59",
     "typeId": "82c36fae-136b-4702-9785-fa173f05c714",
+    "assessmentTypeId": "81c36fae-136b-4702-9785-fa173f05c714",
     "appraiseeExternalId": "SU44617",
     "periodStart": "2018-07-01T00:00:00+03:00",
     "periodEnd": "2018-12-31T00:00:00+03:00",
@@ -34,7 +35,8 @@
 |----|--------|------------|------------|
 |externalId|string| Unique |Внешний идентификатор (опциональный)|
 |templateId|string|Not Null|Идентификатор шаблона анкетирования. *Справочная сущность, в API отсутствует*|
-|typeId|string|Not Null |Идентификатор типа анкетирования из внешней системы. *Справочная сущность, в API отсутствует*|
+|typeId|string|Not Null |Идентификатор цели анкетирования. *Справочная сущность, в API отсутствует*|
+|assessmentTypeId|string|-|Идентификатор типа опроса в анкетировании. *Справочная сущность, в API отсутствует*|
 |appraiseeExternalId|string|Not Null |Идентификатор пользователя из внешней системы, по которому проводится анкетирование|
 |periodStart| datetime (подробнее о формате [здесь](general.md))| Not Null |Дата старта анкетирования|
 |periodEnd| datetime (подробнее о формате [здесь](general.md))|Not Null |Дата окончания анкетирования|
@@ -175,6 +177,7 @@
     "externalId": "externalID1104123",
     "templateId": "fced54c5-9d7f-4179-ac33-b1c5ce4a5e59",
     "typeId": "82c36fae-136b-4702-9785-fa173f05c714",
+    "assessmentTypeId": "81c36fae-136b-4702-9785-fa173f05c714",
     "appraiseeId": "a7561084-127f-4bf5-867d-0787572f9949",
     "appraiseeExternalId": "SU44617",
     "periodStart": "2018-07-01T00:00:00+03:00",
@@ -201,7 +204,8 @@
 |id|string| Unique |Идентификатор анкетирования|
 |externalId|string| Unique |Внешний идентификатор (опциональный)|
 |templateId|string|Not Null|Идентификатор шаблона анкетирования. *Справочная сущность, в API отсутствует*|
-|typeId|string|Not Null |Идентификатор типа анкетирования из внешней системы. *Справочная сущность, в API отсутствует*|
+|typeId|string|Not Null |Идентификатор цели анкетирования. *Справочная сущность, в API отсутствует*|
+|assessmentTypeId|string|-|Идентификатор типа опроса в анкетировании. *Справочная сущность, в API отсутствует*|
 |appraiseeId|string|Not Null |Внутренний идентификатор пользователя, по которому проводится анкетирование|
 |appraiseeExternalId|string|Not Null |Идентификатор пользователя из внешней системы, по которому проводится анкетирование|
 |periodStart| datetime (подробнее о формате [здесь](general.md))| Not Null |Дата старта анкетирования|
