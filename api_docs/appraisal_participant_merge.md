@@ -1,5 +1,5 @@
-# AppraisalParticipantCreateParticipantOrMergeParticipationReason (Создание или объединение причины участия)
-## Создание/Объединене причины участия
+# AppraisalParticipantCreateParticipantOrMergeParticipationReason (Создание участника или объединение причины участия)
+## Создание участника/Объединене причины участия
 
 `POST /api/appraisals/{appraisalId}/participants/CreateParticipantOrMergeParticipationReason`
 
